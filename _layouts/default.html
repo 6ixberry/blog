@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<style>
+
+h1, h2, h3{
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+.page-content{
+  margin: 0 300px 0px 300px; 
+}
+.banner {
+  width: 100%;
+  border: 1px solid black;
+  height: 400px;
+}
+
+.masonry-layout {
+  column-count: 2;
+  column-gap: 0;
+  column-rule: 1px dotted #ddd;
+}
+
+.masonry-layout__panel {
+  break-inside: avoid;
+}
+.masonry-layout__panel-content {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  height: 500px;
+}
+
+.instagram{
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.coveted{
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  border: 1px solid black;
+}
+
+</style>
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+  
+    <div class="page-content">
+  
+    <div class="banner">
+          <p>This is the banner</p>
+    </div>
+
+
+    <div class="masonry-layout">
+      <div class="masonry-layout__panel">
+        <div class="masonry-layout__panel-content">
+         <h1>Outfits</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus odio suscipit cupiditate reiciendis quam, maiores atque voluptatem possimus, accusamus. Deserunt deleniti voluptatibus quis nostrum totam beatae, nisi vero quo voluptatum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, labore deleniti repudiandae perspiciatis reiciendis incidunt laboriosam facilis numquam nemo maiores maxime voluptates temporibus, hic dignissimos voluptatum modi autem cupiditate molestiae.
+          </p>
+        </div>
+      </div>
+      <div class="masonry-layout__panel">
+        <div class="masonry-layout__panel-content">
+          <h1>Workout</h1>
+        <-- CONTENT HERE -->
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quia molestias dolore expedita necessitatibus, qui, nostrum blanditiis error, officiis cumque alias vero! Iure officiis ut recusandae adipisci non, quas expedita.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est odit quia deserunt voluptas aliquam fuga quas officia incidunt amet quisquam dolor consectetur consequuntur culpa eveniet alias, numquam odio beatae laborum?
+         </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi debitis quod, ipsum consequatur aspernatur saepe cum laboriosam eos, recusandae doloribus neque culpa nobis placeat odit magni. Quibusdam, sunt nemo optio.
+          </p>
+        </div>
+      </div>
+      <div class="masonry-layout__panel">
+        <div class="masonry-layout__panel-content">
+          <h1>Home</h1>
+        <-- CONTENT HERE -->
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam iusto sapiente esse exercitationem quidem, ea rem, voluptates numquam odio! Facere inventore voluptatibus veritatis, ad pariatur deserunt officia minima cum modi.
+        </p>
+      </div>
+    </div>
+    <div class="masonry-layout__panel">
+      <div class="masonry-layout__panel-content">
+      <h1>Guys</h1>
+      <-- CONTENT HERE -->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam iusto sapiente esse exercitationem quidem, ea rem, voluptates numquam odio! Facere inventore voluptatibus veritatis, ad pariatur deserunt officia minima cum modi.
+      </p>
+       <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam iusto sapiente esse exercitationem quidem, ea rem, voluptates numquam odio! Facere inventore voluptatibus veritatis, ad pariatur deserunt officia minima cum modi.
+      </p>
+    </div>
+  </div>
+  <div class="masonry-layout__panel">
+    <div class="masonry-layout__panel-content lg-box">
+      <h1>Summer</h1>
+      <-- CONTENT HERE -->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam iusto sapiente esse exercitationem quidem, ea rem, voluptates numquam odio! Facere inventore voluptatibus veritatis, ad pariatur deserunt officia minima cum modi.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="coveted">
+  Things Im liking go here. Stylesense widget probably 
+</div>
+
+<div class="instagram">
+  This is where the instaqgram feed will be 
+</div>
+
+</div>
+
+  {% include footer.html %}
+
+</body>
+
+</html>
